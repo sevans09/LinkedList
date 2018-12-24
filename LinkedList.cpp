@@ -1,8 +1,5 @@
 /*
  * LinkedList.cpp
- * Sook-Hee Evans
- * COMP15 HW2
- * Fall 2018
  * 
  * Implementation for Linked List of Green Line Extension Stations
  * This file creates a linked list of Station objects from station
