@@ -1,0 +1,83 @@
+Sook-Hee Evans
+Homework 2: Linked Lists
+
+
+*Acknowledgements*
+Ryan Luu assisted me with my remove_station function.
+
+
+*Purpose*
+The purpose of this program is to make a linked list
+of that can easily handle objects containing multiple 
+pieces of information and also is easily edited
+and printed.
+
+
+*Files provided*
+The files provided were LinkedList.h, LinkedList.cpp,
+Station.h, and Station.cpp.
+
+LinkedList.h - Linked list header file
+Header file that outlines public and private 
+variables and function for linked list class.
+
+LinkedList.cpp - Linked List class file
+Class that contains functions that manipulate the 
+linked list by adding to, removing from, and printing
+the linked list.
+
+Station.h - station header file
+Header file that outlines public and private variables
+for the station class.
+
+Station.cpp - station class file
+Class that contains functions to check for duplicates,
+construct, and print.
+
+
+*How to compile and run*
+To compile, type make train-conductor in the command 
+line.
+To run, type ./train-conductor in the command line.
+
+
+*Outline of data structures and algorithms*
+This assignment used linked lists. The advantage of 
+using linked lists is that they are dynamic in nature,
+which in an assignment that requires a lot of edits
+and length modifications like this one is very useful,
+without reallocating an entirely new structure as
+you would have to with an array.
+
+
+*Details of testing*
+I compiled after each function to check for errors.
+When I was just working on Station.cpp, I looked
+for a printout of each station and its accessibility
+info, along with the end line of "I just read and
+printed 26 stations" so that I knew if it worked.
+
+As I worked through LinkedList.cpp, I looked for
+"Removed stations and printed to file" as well as
+the count of stops to final destination to know that
+each function was working correctly. 
+
+I had trouble with the remove_station function in 
+accessing the info of the first instance of a station
+that matches Station s's info. I was trying to compare 
+the Station class to NodeType class, which was throwing 
+an error.
+
+I noticed that there were several edge cases for the
+remove_station function. I had to account for if the 
+head was null (no list), or if there was only the head 
+value in the list, or if the head value was the match.
+I had to implement several if statements to check for 
+each of these, and continue into iterating through the
+linked list and checking for matches if none of these 
+were the case.
+
+I inserted a cout to print station info in each of the 
+loops as I was testing to see what if loop was throwing
+an error, and eventually realized I was trying to access
+outside of the list, and changed my code.
