@@ -1,7 +1,6 @@
 /*
  * Station.h
  *
- * Implementation of the Station class for homework 2
  * 
  */
 
