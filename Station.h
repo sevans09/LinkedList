@@ -1,8 +1,5 @@
 /*
  * Station.h
- * Sook-Hee Evans
- * COMP15
- * Spring 2018
  *
  * Implementation of the Station class for homework 2
  * 
