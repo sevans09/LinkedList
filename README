@@ -73,7 +73,7 @@ each of these, and continue into iterating through the
 linked list and checking for matches if none of these 
 were the case.
 
-I inserted a cout to print station info in each of the 
+I used cerr to print station info in each of the 
 loops as I was testing to see what if loop was throwing
 an error, and eventually realized I was trying to access
 outside of the list, and changed my code.
