@@ -1,10 +1,6 @@
 /* 
  * Station.cpp
- * Sook-Hee Evans
- * COMP15 HW2
- * Fall 2018
  *
- * Implementation of the Station class for homework 2
  * This file writes a parameterized constructor for the
  * station class and checks for a match between the station
  * object's information and the inputted parameter.
