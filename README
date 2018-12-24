@@ -1,16 +1,12 @@
-Sook-Hee Evans
-Homework 2: Linked Lists
-
-
-*Acknowledgements*
-Ryan Luu assisted me with my remove_station function.
-
 
 *Purpose*
 The purpose of this program is to make a linked list
 of that can easily handle objects containing multiple 
 pieces of information and also is easily edited
-and printed.
+and printed. These objects represent the stops on the
+MBTA green line and whether or not they provide 
+accessibility options. Using this program, stops are
+easily added or removed.
 
 
 *Files provided*
